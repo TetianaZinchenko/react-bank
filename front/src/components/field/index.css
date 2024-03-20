@@ -1,0 +1,15 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #1d1d1f;
+}
+
+.field.invalid {
+  color: #f23152;
+  font-size: 14px;
+}
+
+.field.invalid .field__input {
+  border: 1px solid #f23152;
+}

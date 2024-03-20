@@ -1,0 +1,50 @@
+.button-system {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 8px;
+
+  padding: 16px;
+}
+
+.system__icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon--stripe {
+  background-image: url("../../img/stripe.svg");
+}
+
+.icon--coinbase {
+  background-image: url("../../img/coinbase.svg");
+}
+
+.icon--mastercard {
+  background-image: url("../../img/mastercard.svg");
+}
+
+.icon--tron-green {
+  background-image: url("../../img/tron-green.svg");
+}
+
+.icon--bitcoin {
+  background-image: url("../../img/bitcoin.svg");
+}
+
+.icon--tron-red {
+  background-image: url("../../img/tron-red.svg");
+}
+
+.icon--ethereum {
+  background-image: url("../../img/ethereum.svg");
+}
+
+.icon--binance {
+  background-image: url("../../img/binance.svg");
+}
